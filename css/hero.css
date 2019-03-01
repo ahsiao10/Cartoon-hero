@@ -1,16 +1,77 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Stitch</title>
-	<link rel="stylesheet" type="text/css" href="css/hero.css">
-</head>
-<body>
-<div class="wrapper">
-	<header>
+html, body{
+	font-family: Arial, sans-serif;
+	margin: 0;
+}
+
+header{
+	background-color: #64bfef;
+	padding: 40px;
+	text-align: center;
+}
+
+h1{
+	font-style: 90px;
+	color: white;
+}
+
+header img{
+	border-radius: 150px;
+	border: 10px solid #ff9980;
+}
+
+.content{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0;
+
+}
+
+img.big-image{
+	max-width: 100%;
+
+}
+
+p.caption{
+	font-size: 16px;
+	color: lightgrey;
+	font-style: italic;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+
+}
+
+a{
+	color: red;
+	text-decoration: none;
+}
+
+footer{
+	margin: 20px;
+	padding: 40px 20px;
+	background-color: #E6E6E6;
+}
+
+
+footer ul{
+	text-align: center;
+	margin: 20px;
+}
+footer ul li{
+	display: inline-block;
+	margin: 0 5px;
+
+}
+/*<header>
 		<img src="img/profile.jpg">
 		<h1>Stitch</h1>
-	</header>
-	<div class="content"> 
+	</header>*/
+
+
+	/* <div class="content"> 
 		<h2>About Stitch</h2>
 		<p>Stitch is a blue creature also known as Experiment 626 who is adopted by a human girl named Lilo Pelekai. </p>
 		<h2>Stitch's characteristics</h2>
@@ -20,7 +81,7 @@
 			<li>He's absolutely adorable</li>
 		</ol>
 		<img class="big-image" src="img/big-image.jpg">
-		<p class="caption">Stitch with his friends</p>
+		<p class="caption">This is Stitch</p>
 		<h2>Stich's friends</h2>
 		<ul>
 			<li><a href="https://liloandstitch.fandom.com/wiki/Lilo_Pelekai" target="_blank" title="Visit Lilo's page"> Lilo Pelekai</li>
@@ -28,16 +89,4 @@
 			<li><a href="https://liloandstitch.fandom.com/wiki/Wendy_Pleakley" target="_blank" title="Visit Wendy's page"> Wendy Pleakley</a></li>
 		</ul>
 
-	</div>
-	<footer>
-		<ul>
-			<li>Made by Annie</li>
-			<li>Made during a <a href="http://skillshare.com" title="_blank" title="Visit Skillshare"> Skillshare</a> class</li>
-			<li>&copy; 2019</li>
-
-		</ul>
-		
-	</footer>
-</div>
-</body>
-</html>
+	</div>*/ 
