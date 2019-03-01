@@ -14,11 +14,15 @@ header{
 h1{
 	font-style: 90px;
 	color: white;
+	text-shadow: 0 4px 20px black;
+	margin: 0;
+	text-transform: uppercase;
 }
 
 header img{
 	border-radius: 150px;
 	border: 10px solid #ff9980;
+	box-shadow: 0 10px 20px black;
 }
 
 .content{
@@ -48,7 +52,8 @@ ul{
 
 a{
 	color: red;
-	text-decoration: none;
+	text-decoration: none; 
+
 }
 
 footer{
